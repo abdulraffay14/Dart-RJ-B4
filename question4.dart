@@ -1,6 +1,5 @@
 void main() {
-  int year = 2020; // You can change the year here
-
+  int year = 2020; 
   if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
     print("$year is a leap year");
   } else {
